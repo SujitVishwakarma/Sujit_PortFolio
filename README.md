@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-Website Link:  (https://sujit-port-folio.vercel.app/)
+Website Link:  https://sujit-port-folio.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
