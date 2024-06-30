@@ -1,0 +1,127 @@
+#about{
+    padding: 80px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 40px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 65px;
+    font-weight: 600;
+    color: rgb(186, 198, 208);
+}
+.text{
+    color: darkgray;
+    font-weight: 600;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s ;
+}
+.tab-links.active-link::after{
+    width: 80%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color: #ff004f;
+    font-size: 22px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex: 100%;
+        max-width: 100%;
+        padding-top: 30px;
+    }
+    .about-col-1 img {
+        height: 364px;
+        width: 74%;
+        margin-left: 55px;
+    }
+
+    .tab-titles {
+        flex-direction: column;
+        align-items: center;
+        width: 12%;
+        margin-left: 28px;
+    }
+
+    .tab-links {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .tab-contents ul {
+        padding-left: 20px;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .sub-title {
+        font-size: 1.5em;
+        padding-bottom: 12px;
+    }
+    .about-col-1 img {
+        height: 264px;
+        width: 74%;
+        margin-left: 47px;
+    }
+
+    .text {
+        font-size: 0.9em;
+    }
+
+    .tab-links {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+
+    .tab-contents ul li {
+        font-size: 0.9em;
+    }
+    .tab-contents ul li span{
+        font-size: 1rem;
+    }
+}
