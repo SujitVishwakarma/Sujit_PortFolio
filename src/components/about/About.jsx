@@ -25,8 +25,8 @@ const About = () => {
                         </div>
                         <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id='skills'>
                             <ul>
-                                <li><span>Languages: </span>Java, C, C++, Python, HTML, CSS, JavaScript, Verilog</li>
-                                <li><span>Frameworks: </span>ReactJs, NodeJs, J2EE, Material-UI, jQuery, REST API, GitHub, Express</li>
+                                <li><span>Languages: </span> Java, C, C++, Python, HTML, CSS, JavaScript, Verilog</li>
+                                <li><span>Frameworks: </span>ReactJs, NodeJs, Material-UI, jQuery, REST API, GitHub, Express</li>
                                 <li><span>Database: </span> MongoDB, MySQL, Firebase</li>
                                 <li><span>Developer Tools: </span> VS Code, Git</li>
                                 <li><span>CourseWork:</span> Data Structure and Algorithms, DBMS, Operating System</li>
