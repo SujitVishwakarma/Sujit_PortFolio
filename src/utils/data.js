@@ -46,8 +46,10 @@ import roboCamp from '../components/assests/Certificates/Robo camp.png'
 import shiksha_arpan from '../components/assests/Certificates/Shiksha Arpan .png'
 import solidWork from '../components/assests/Certificates/solid work certificate.jpg'
 import vlsi from '../components/assests/Certificates/Sujit Certificate.png'
-
-
+import hireInTime from "../components/assests/projectImage/hireInTime.png"
+import credchex from "../components/assests/projectImage/credchex.png"
+import geeknomix_new from "../components/assests/projectImage/geeknomix-new.png"
+import yog from "../components/assests/projectImage/yog.png"
 
 export const SKILLS = [
     {
@@ -167,6 +169,38 @@ export const EXPERIENCE =[
 export const PROJECTCARD = [
     {
         id:1,
+        title:"HireInTime",
+        des:"HireInTime is a modern web-based hiring platform designed to streamline the recruitment process for both employers and candidates. Built with React, Tailwind CSS, and powered by a robust backend, it features secure admin access, dynamic UI components, and a responsive design. Ideal for managing applications, showcasing job listings, and providing a smooth candidate experience." ,
+        src:hireInTime,
+        gitUrl:"https://hireintime.com",
+        webUrl:'https://hireintime.com',
+    },
+    {
+        id:2,
+        title:"CredChex",
+        des:"CredChex is a digital certificate generation and management platform designed to help organizations create, issue, and verify certificates effortlessly. Built with React and Tailwind CSS, CredChex offers a secure, user-friendly interface to streamline credential handling, making certificate validation simple and reliable." ,
+        src:credchex,
+        gitUrl:"https://credchex.com",
+        webUrl:'https://credchex.com',
+    },
+    {
+        id:3,
+        title:"Geeknomix",
+        des:"Geeknomix is an online education platform offering a wide range of courses where users can browse, enroll, and learn at their own pace. Built with a focus on user experience and scalability, Geeknomix provides an intuitive interface for course management, progress tracking, and interactive learning." ,
+        src:geeknomix_new,
+        gitUrl:"https://geeknomix.com",
+        webUrl:'https://geeknomix.com',
+    },
+    {
+        id:4,
+        title:"Yog-Mania",
+        des:"Yog-Mania is an online yoga learning platform designed to provide accessible and interactive yoga classes. It offers a user-friendly experience for yoga enthusiasts to explore different styles, follow guided sessions, and track their progress — all from the comfort of their home." ,
+        src:yog,
+        gitUrl:"https://yog-mania.vercel.app",
+        webUrl:'https://yog-mania.vercel.app',
+    },
+    {
+        id:5,
         title:"Resume Builder",
         des:"Built a comprehensive Resume Builder web application using the MERN stack (MongoDB, Express.js, React.js, and Node.js). This user-friendly tool streamlines the resume creation process, allowing users to easily build professional and impactful resumes." ,
         src:resume,
@@ -174,7 +208,7 @@ export const PROJECTCARD = [
         webUrl:'https://resume-builder-three-taupe.vercel.app',
     },
     {
-        id:2,
+        id:6,
         title:"Flipkart Clone" ,
         des:"Developed a Flipkart clone using the MERN stack. The app allows users to browse, search, and purchase products online. It features a React front-end, Node.js and Express.js back-end, and MongoDB for data storage, providing a seamless e-commerce experience.",
         src:flipkart,
@@ -182,7 +216,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:3,
+        id:7,
         title:"Auth in MERN" ,
         des:"Developed an authentication system using the MERN stack. The app enables user registration, login, and secure access. It features a React front-end, Node.js and Express.js back-end, and MongoDB for storing user credentials, implementing secure authentication processes. The system includes JWT for token-based authentication and bcrypt for password hashing.",
         src:auth,
@@ -190,7 +224,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:4,
+        id:8,
         title:"E- Commerce" ,
         des:"Developed an e-commerce app using the MERN stack. The app allows users to browse, search, and purchase products online. It features a React front-end, Node.js and Express.js back-end, and MongoDB for data storage, providing a seamless shopping experience. The system includes features like user authentication, product reviews, and a shopping cart.",
         src:ecommerce,
@@ -198,7 +232,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:5,
+        id:9,
         title:"Yutube clone" ,
         des:"Developed a YouTube clone using the MERN stack. The app allows users to upload, watch, and comment on videos. It features a React front-end, Node.js and Express.js back-end, and MongoDB for data storage, providing a seamless video streaming experience. The system includes features like user authentication, video recommendations, and a like/dislike system.",
         src:yutube,
@@ -206,7 +240,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:6,
+        id:10,
         title:"vishwaBooking" ,
         des:"Developed a travel booking app called Vishwabooking using the MERN stack. The app allows users to search, book, and manage travel reservations. It features a React front-end, Node.js and Express.js back-end, and MongoDB for data storage, providing a seamless travel booking experience. The system includes user authentication, booking history, and payment integration.",
         src:vishwabooking,
@@ -214,7 +248,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:7,
+        id:11,
         title:"Shiksha Arpan" ,
         des:"Developed a web app called Shiksha Arpan during a hackathon using React. The app facilitates online education, allowing users to access and share educational resources. It features a user-friendly interface, providing a seamless learning experience. The system includes course management and interactive forums.",
         src:shiksha,
@@ -222,7 +256,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:8,
+        id:12,
         title:"Booking Web App" ,
         des:"Developed a booking web app using React. The app allows users to search, book, and manage reservations. It features a user-friendly interface, providing a seamless booking experience. The system includes functionalities for viewing availability, confirming bookings, and managing user accounts.",
         src:booking,
@@ -230,7 +264,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:9,
+        id:13,
         title:"ask for date" ,
         des:"Developed a web app called Ask_for_date using React. The app facilitates scheduling and managing dates or appointments. It features a user-friendly interface, providing a seamless scheduling experience. The system includes functionalities for viewing available slots, booking appointments, and managing user profiles.",
         src:askForDate,
@@ -238,7 +272,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:10,
+        id:14,
         title:"PortFolio" ,
         des:"Developed a portfolio web app using React. The app showcases my projects, skills, and experience in a user-friendly interface, providing an overview of my work. It includes sections for project descriptions, technologies used, and contact information for potential collaborations or inquiries.",
         src:portFolio,
@@ -246,7 +280,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:11,
+        id:15,
         title:"CV" ,
         des:"Created my resume using HTML, CSS, and JavaScript to craft a personalized and professional representation of my skills and experience. The resume features a responsive design for optimal viewing across devices, includes sections such as personal information, education, work history, skills, and contact details.",
         src:cv,
@@ -254,7 +288,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:12,
+        id:16,
         title:"Weather App" ,
         des:"Developed a full-stack weather app using the MERN stack. It provides real-time weather updates based on user input or location detection, featuring a responsive React front-end, Node.js and Express.js back-end for API handling.",
         src:weather,
@@ -262,7 +296,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:13,
+        id:17,
         title:"Drum Kit" ,
         des:"Developed an interactive DrumKit web application using HTML, CSS, and JavaScript. This web app simulates a drum set, allowing users to create and play beats directly in their browser, fostering creativity and musical exploration.",
         src:drumkit,
@@ -270,7 +304,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:14,
+        id:18,
         title:"Dice Game" ,
         des:"Created a fun and engaging dice game web application using HTML, CSS, and JavaScript. This web app provides a virtual dice rolling experience, perfect for casual play or integrating into other interactive games.",
         src:dice,
@@ -278,7 +312,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:15,
+        id:19,
         title:"KBC Quiz" ,
         des:"Built a web-based KBC quiz application. This interactive quiz game tests general knowledge and provides an engaging learning experience, inspired by the popular Indian game show Kaun Banega Crorepati. This web-based game tests general knowledge and offers an engaging learning experience.",
         src:kbc,
@@ -286,7 +320,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:16,
+        id:20,
         title:"Tin Dong" ,
         des:"Built a web-based Tin Dong application. This interactive quiz game tests thinking and provides an engaging learning experience, This web-based game tests general knowledge and offers an engaging learning experience.",
         src:tindong,
@@ -294,7 +328,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:17,
+        id:21,
         title:"Hand cricket Game" ,
         des:"Developed a web-based Hand Cricket game. This interactive game brings the classic playground experience to the browser, allowing users to compete in virtual matches and relive the nostalgia of childhood cricketing fun.",
         src:handCricket,
@@ -302,7 +336,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:18,
+        id:22,
         title:"Clockify-UI" ,
         des:"This project involved creating visually appealing dashboards, integrating real-time data tracking, and optimizing the interface for both desktop and mobile platforms. ",
         src:clockifyImg,
@@ -310,7 +344,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:19,
+        id:23,
         title:"Age Calculator" ,
         des:"Designed and implemented an Age Calculator application that accurately computes age based on inputted birthdate. ",
         src:ageCalculator,
@@ -318,7 +352,7 @@ export const PROJECTCARD = [
         webUrl:""
     },
     {
-        id:20,
+        id:24,
         title:"News " ,
         des:"Developed a News App that delivers real-time updates and personalized news feeds. The application features a sleek and responsive design, ensuring a seamless user experience across all devices.",
         src:newsApp,
